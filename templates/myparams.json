@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workflows_trafficcontrol_name": {
+            "value": "MyTrafficControlLogicApp"
+        },
+        "webapp_east_region_name": {
+            "value": "East US"
+        },
+        "webapp_west_region_name": {
+            "value": "West US"
+        },
+        "webapp_east_name": {
+            "value": "fdtesteastus.azurewebsites.net"
+        },
+        "webapp_west_name": {
+            "value": "fdtestwestus.azurewebsites.net"
+        },
+        "Frontdoors_myfrontdoor_resourcegroup": {
+            "value": "notificationtest"
+        },
+        "Frontdoors_myfrontdoor_name": {
+            "value": "fdtestfd"
+        },
+        "Frontdoors_backendpool_name": {
+            "value": "fdtestpool"
+        },
+        "Frontdoors_routingrule_name": {
+            "value": "fdtestrule1"
+        },
+        "connections_arm_name": {
+            "value": "arm"
+        }
+    }
+}
